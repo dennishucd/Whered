@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+    
+        <EditText
+         android:id="@+id/et_mobile_login"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:hint="@string/hint_phone"
+         android:maxLength="11"/>
+	     <EditText
+	         android:id="@+id/et_pwd_login"
+	         android:layout_width="fill_parent"
+	         android:layout_height="wrap_content"
+	         android:hint="@string/hint_password"
+	         android:password="true"/>
+	 </LinearLayout>
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" 
+        android:gravity="center">
+         <Button
+	             android:id="@+id/btn_login"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_gravity="center"
+	             android:gravity="center"
+	             android:text="@string/btn_login"
+	             android:textSize="20sp" />
+	      <!-- Button
+	             android:id="@+id/btn_register"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_gravity="center"
+	             android:gravity="center"
+	             android:text="@string/btn_register"
+	             android:textSize="20sp" /-->
+	     <TextView
+             android:id="@+id/tv_register"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dip"
+             android:linksClickable="true"
+             android:text="注册"
+             android:textColor="#2eeeee"
+             android:textColorLink="#e33333"
+             android:textSize="18sp" />
+     </LinearLayout>
+                
+</LinearLayout>

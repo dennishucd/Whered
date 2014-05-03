@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello Whered!</string>
+    <string name="app_name">Whered</string>
+    <string name="hint_phone">11位手机号</string>
+    <string name="hint_password">6~20位密码</string>
+    <string name="hint_password_again">确认密码</string>
+    <string name="btn_login">登      录</string>
+    <string name="btn_register">注      册</string>
+    <string name="hint_nickname">昵称</string>
+    <string name="title">味儿</string>
+    <string name="option">选项</string>
+
+</resources>
